@@ -270,9 +270,9 @@
 @media only screen and (max-width: 850px){
 
 	.contact-page-wrapper{
-		padding: 0px 10px;
+		padding: 0px 0px;
 		width: 100%;
-/*		border: 4px solid black;*/
+		border: 4px solid black;
 	}
 
 	.address-container{
@@ -280,6 +280,7 @@
 		height: 100%;
 		float: none;
 		display: block;
+		padding: 1px;
 		margin-bottom: 40px;
 	}
 

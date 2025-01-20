@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.active {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.class-1 {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.class-2 {
+  background-color: #ccc;
+  color: #666;
+}
+
+.class-3 {
+  background-color: #aaa;
+  color: #999;
+}
+
+
+
+	</style>
+</head>
+<body>
+
+<button id="btn-1" onclick="toggleClass('btn-1')">Button 1</button>
+<button id="btn-2" onclick="toggleClass('btn-2')">Button 2</button>
+<button id="btn-3" onclick="toggleClass('btn-3')">Button 3</button>
+
+<div id="target-element" class="">Target Element</div>
+
+
+
+</body>
+
+<script type="text/javascript">
+	let currentActiveButton = null;
+
+function toggleClass(buttonId) {
+  const buttons = document.querySelectorAll('button');
+  const targetElement = document.getElementById('target-element');
+
+  // Remove active class from previous button
+  if (currentActiveButton) {
+    currentActiveButton.classList.remove('active');
+  }
+
+  // Add active class to clicked button
+  const clickedButton = document.getElementById(buttonId);
+  clickedButton.classList.add('active');
+  currentActiveButton = clickedButton;
+
+  // Toggle class on target element
+  targetElement.classList.remove(...['class-1', 'class-2', 'class-3']);
+  targetElement.classList.add(`class-${buttonId.slice(4)}`);
+}
+
+</script>
+</html>

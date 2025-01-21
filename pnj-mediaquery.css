@@ -124,7 +124,17 @@
 		font-size: 20px;
 	}
 
+
 }
+
+@media only screen and (max-width: 500px){
+	.footer-wrapper{
+		padding-bottom: 40px;
+/*		border: 2px solid white;*/
+
+	}
+}
+
 
 
 /*	 CONTACT TABLET MEDIA QUERY	*/
@@ -140,6 +150,129 @@
 }
 
 
+
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+	.whoarewe-section{
+		width: 100%;
+/*		border: 2px solid blue;*/
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.imgbox img{
+		width: 100%;
+		min-width: 350px;
+	}
+
+	.textbox{
+		width: 55%;
+/*		border: 2px solid blue;*/
+		padding: 0px 20px;
+		padding-left: 60px;
+		margin-top: 60px;
+	}
+
+	.imgbox2 img{
+		width: 100%;
+		min-width: 350px;
+	}
+
+	.textbox2{
+		width: 55%;
+	/*	border: 2px solid blue;*/
+		padding: 0px 20px;
+		padding-left: 60px;
+		margin-top: 60px;
+		float: left;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+	.whoarewe-section{
+		width: 100%;
+/*		border: 2px solid blue;*/
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.whoarewe-section h2{
+		font-size: 20px;
+	}
+
+	.whoarewe-section h1{
+		font-size: 25px;
+	}
+
+	.our-mission-wrapper{
+/*		border: 2px solid black;*/
+		overflow: hidden;
+		padding-top: 20px;
+	}
+
+	.imgbox{
+		width: 100%;
+		min-width: 200px;
+/*		border: 2px solid black;*/
+		padding-right: 0px;
+		text-align: center;
+		float: none;
+	}
+
+	.imgbox img{
+		width: 100%;
+		min-width: 200px;
+	}
+
+	.textbox{
+		width: 100%;
+	/*	border: 2px solid blue;*/
+		text-align: left;
+		padding: 0px 5px;
+		padding-right: 0px;
+		margin-top: 20px;
+		float: none;
+	}
+
+	.textbox h2{
+		text-align: center;
+	}
+
+	.imgbox2{
+		width: 100%;
+		margin-top: 30px;
+		min-width: 200px;
+/*		border: 2px solid black;*/
+		padding-left: 0px;
+		aspect-ratio: 1;
+		text-align: center;
+		float: none;
+	}
+
+	.imgbox2 img{
+		width: 100%;
+		min-width: 200px;
+	}
+
+	.textbox2{
+		width: 100%;
+	/*	border: 2px solid blue;*/
+		text-align: left;
+		padding: 0px 5px;
+		padding-right: 0px;
+		margin-top: 20px;
+		float: none;
+	}
+
+	.textbox2 h2{
+		text-align: center;
+	}
+}
 
 
 
@@ -265,19 +398,22 @@
 
 }
 
+
+
 /*   CONTACT PHONE MEDIA QUERY	*/
 
 @media only screen and (max-width: 850px){
 
 	.contact-page-wrapper{
-		padding: 0px 0px;
+		padding: 0px 5px;
 		width: 100%;
-		border: 4px solid black;
+/*		border: 4px solid black;*/
 	}
 
 	.address-container{
 		width: 100%;
 		height: 100%;
+/*		border: 2px solid black;*/
 		float: none;
 		display: block;
 		padding: 1px;
@@ -299,6 +435,18 @@
 	}
 
 }
+
+
+
+
+/*   GET STARTED PHONE MEDIA QUERY	*/
+
+@media only screen and (max-width: 850px){
+	.container{
+		width: 100%;
+	}
+}
+
 
 
 
@@ -446,7 +594,7 @@
 		width: 100%;
 		height: 100%;
 		float: none;
-		border: 2px solid black;
+/*		border: 2px solid black;*/
 		padding: 40px 10px;
 	}
 

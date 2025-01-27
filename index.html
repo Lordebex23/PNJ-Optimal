@@ -70,7 +70,7 @@
 			<div class="welcome-banner-content">
 				<h1>Starting a new electronics Project? <br>PNJ Optimal has you covered.</h1>
 				<div class="welcome-text">We are turnkey solution providers in Embedded System projects and Electronic Components Supply.</div>
-				<button>Get Started</button>
+				<button><a href="get-started.html">Get Started</a></button>
 			</div>
 		</div>
 
@@ -168,10 +168,10 @@
 				</div>
 				<div class="left-container">
 					<div class="message-wrapper">
-						<form>
-							<input type="text" name="" placeholder="Enter your name" required>
-							<input type="email" name="" placeholder="Enter your email" required>
-							<textarea>Enter your message here</textarea>
+						<form action="send.php" method="POST">
+							<input type="text" id="name" name="name" placeholder="Enter your name*" required>
+							<input type="email" id="email" name="email" placeholder="Enter your email*" required>
+							<textarea id="message" name="message" required>Enter your message here</textarea>
 							<input type="submit" name="" value="Send a message" class="submit-btn">
 						</form>
 					</div>

@@ -125,6 +125,8 @@
 	}
 
 
+
+
 }
 
 @media only screen and (max-width: 500px){
@@ -132,6 +134,10 @@
 		padding-bottom: 40px;
 /*		border: 2px solid white;*/
 
+	}
+
+	.first-footer-container h2, .second-footer-container h2, .third-footer-container h2{
+		font-size: 20px;
 	}
 }
 
@@ -197,6 +203,10 @@
 
 @media only screen and (max-width: 700px){
 
+	.about-page-container{
+		padding-top: 40px;
+	}
+
 	.whoarewe-section{
 		width: 100%;
 /*		border: 2px solid blue;*/
@@ -204,12 +214,18 @@
 		padding-right: 5px;
 	}
 
+	.main-content{
+		line-height: 23px;
+		text-align: justify;
+		padding: 0px 5px;
+	}
+
 	.whoarewe-section h2{
 		font-size: 20px;
 	}
 
 	.whoarewe-section h1{
-		font-size: 25px;
+		font-size: 23px;
 	}
 
 	.our-mission-wrapper{
@@ -278,8 +294,129 @@
 }
 
 
+/*  SERVICES TABLET MEDIA QUERY  */
+
+@media only screen and (min-width: 1030px) and (max-width: 1100px){
+
+	.services-container{
+/*		border: 2px solid black;*/
+		width: 99%;
+	}
 
 
+	.why-choose-us{
+		width: 100%;
+		border: 2px solid black;
+	}
+
+	.why-choose-us .imgbox{
+/*		border: 2px solid green;*/
+/*		float: left;*/
+		width: 45%;
+	}
+
+
+	.why-choose-us .content-box{
+		float: left;
+		width: 55%;
+/*		border: 2px solid black;*/
+		margin-top: 25px;
+	}
+}
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 1030px){
+
+	.services-container{
+/*		border: 2px solid black;*/
+		width: 99%;
+	}
+
+	.services-container .contents{
+		width: 45%;
+		margin: 2.5%;
+	}
+
+	.why-choose-us{
+/*		border: 2px solid black;*/
+		width: 100%;
+	}
+
+	.why-choose-us .imgbox{
+/*		border: 2px solid green;*/
+/*		float: left;*/
+		width: 50%;
+		margin-top: 20px;
+	}
+
+
+	.why-choose-us .content-box{
+		width: 50%;
+/*		border: 2px solid black;*/
+		margin-top: 0px;
+	}
+
+
+}
+
+
+
+/*  SERVICES PHONE MEDIA STYLESHEET  */
+
+@media only screen and (max-width: 700px){
+
+	.services-container{
+/*		border: 2px solid black;*/
+		width: 99%;
+	}
+
+	.services-container .contents{
+		width: 95%;
+		margin: 2.3%;
+		margin-bottom: 30px;
+		height: 100%;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.services-container h1{
+		font-size: 25px;
+	}
+
+	.contents h2{
+		font-size: 20px;
+	}
+
+	.why-choose-us{
+/*		border: 2px solid black;*/
+		overflow: hidden;
+		width: 100%;
+		margin: auto;
+		margin-top: 60px;
+	}
+
+	.why-choose-us .imgbox{
+	/*	border: 2px solid green;*/
+		float: none;
+		width: 100%;
+	}
+
+
+	.why-choose-us .content-box{
+		float: none;
+		width: 100%;
+	/*	border: 2px solid black;*/
+		margin-top: 25px;
+		padding-right: 10px;
+	}
+
+	.why-choose-us .content-box h2{
+		font-size: 20px;
+	}
+
+}
 
 
 
@@ -412,8 +549,17 @@
 
 	.contact-page-wrapper{
 		padding: 0px 5px;
+		margin-top: 50px;
 		width: 100%;
 /*		border: 4px solid black;*/
+	}
+
+	.contact-page-wrapper h1{
+		font-size: 25px;
+	}
+
+	.contact-page-wrapper h2{
+		font-size: 23px;
 	}
 
 	.address-container{

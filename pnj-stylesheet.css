@@ -195,6 +195,11 @@ nav>ul>a:hover::before{
 	display: none;
 }
 
+.welcome-banner-content button a{
+	color: white;
+	text-decoration: none;
+}
+
 /*  END OF HEADER SECTION  */
 
 
@@ -995,5 +1000,89 @@ form{
 /*	background-color: #f8982d;*/
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
 }
+
+
+
+/*  SERVICES STYLESHEET  */
+
+.services-container{
+/*	border: 2px solid black;*/
+	width: 93%;
+	margin: auto;
+/*	height: 500px;*/
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.services-container .contents{
+	width: 30%;
+/*	border: 2px solid black;*/
+	height: 350px;
+	min-width: 300px;
+	border-radius: 10px;
+	background-color: #f6f7f8;
+	padding: 0px 5px;
+	padding-top: 10px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	float: left;
+	margin: 1.65%;
+	margin-bottom: 20px;
+}
+
+.services-container .contents:hover{
+	transform: scale(1.02);
+	transition: .5s;
+}
+
+.contents h2{
+/*	border: 2px solid grey;*/
+/*	height: 70px;*/
+	color: #000000b8;
+
+}
+
+.contents span{
+/*	border: 2px solid black;*/
+	display: block;
+	line-height: 24px;
+	font-size: 16px;
+	word-spacing: 1px;
+	color: #000000b8;
+}
+
+.why-choose-us{
+/*	border: 5px solid black;*/
+	overflow: hidden;
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.why-choose-us .imgbox{
+/*	border: 2px solid green;*/
+	float: left;
+	width: 45%;
+}
+
+
+.why-choose-us .content-box{
+	float: left;
+	width: 55%;
+/*	border: 2px solid black;*/
+	margin-top: 25px;
+}
+
+.why-choose-us .content-box ul li{
+	font-weight: normal;
+	word-spacing: 1px;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.why-choose-us .content-box h2{
+	text-align: center;
+/*	border: 2px solid green;*/
+}
+
 
 

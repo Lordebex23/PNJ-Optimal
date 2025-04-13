@@ -240,7 +240,7 @@ main{
 }
 
 .welcome-text{
-	font-size: 18px;
+	font-size: 19px;
 	word-spacing: 2px;
 	margin-top: 35px;
 	font-family: sans-serif;
@@ -797,7 +797,7 @@ footer{
 	color: #152644;
 	font-weight: bolder;
 /*	border: 2px solid black;*/
-	font-size: 23px;
+	font-size: 17px;
 }
 
 
